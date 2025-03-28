@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-white shadow-md p-4 flex justify-between items-center px-8">
+    <header className="bg-white shadow-md p-4 flex justify-between items-center px-8 fixed top-0 left-0 w-full z-50">
       <h1 className="text-3xl font-extrabold text-blue-700 tracking-wide">
         Milk Store 🥛
       </h1>
 
-      <nav className="flex gap-6">
+      <nav className="flex gap-4">
         <Link
           to="/"
           className="text-gray-700 font-medium text-lg hover:text-blue-600 transition duration-200"
